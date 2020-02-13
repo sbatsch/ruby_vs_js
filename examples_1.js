@@ -16,7 +16,7 @@
 
 
 
-// // Write a method that accepts an array of strings and prints out every other string.
+// Write a method that accepts an array of strings and prints out every other string.
 
 // function printEveryOtherItem(strings) {
 //   var index = 0;
@@ -32,7 +32,7 @@
 
 
 
-// // Write a method that accepts an array of numbers and returns the sum.
+// Write a method that accepts an array of numbers and returns the sum.
 
 // function computeSum(numbers) {
 //   var sum = 0;
@@ -60,15 +60,15 @@
 
 // # Write a method that prints out every number from 1 to 100.
 
-function printOneHundred {
-  var number = 1;
-  while (number <= 100) {
-    console.log(number);
-  }
-  numbner += 1; 
-}
+// function printOneHundred {
+//   var number = 1;
+//   while (number <= 100) {
+//     console.log(number);
+//   }
+//   numbner += 1; 
+// }
 
-printOneHundred;
+// printOneHundred;
 
 // # Write a method that prints out every other number from 1 to 100. (That is, 1, 3, 5, 7 … 99).
 
