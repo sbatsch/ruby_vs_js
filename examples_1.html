@@ -155,6 +155,92 @@
   // console.log(factorial(5)); 
 
 
+  // Don’t solve the following problems first in Ruby, write the solution only in JavaScript.
+
+  // 1. Write a function that takes in an array of numbers and returns its sum.
+
+  // function sumArray(array) {
+  //   var result = 0; 
+  //   var index = 0; 
+
+  //   while (index < array.length) {
+  //     result += array[index]; 
+  //     index ++; 
+  //   }
+
+  //   return result;
+  // }
+
+  // console.log(sumArray([1, 2, 3, 4, 5]));
+
+
+  // 2. Write a function that takes in an array of strings and returns the smallest string.
+
+
+  // function smallestString(array) {
+  //   var smallest = array[0];
+  //   var index = 0;
+
+  //   while (index < array.length) {
+  //     if (array[index].length < smallest.length) {
+  //       smallest = array[index];
+  //     }
+  //     index++; 
+  //   }
+  //   return smallest;
+  // }
+
+  // console.log(smallestString(["Hello", "Goodbye", "Hi"]))
+
+
+  // 3. Write a function that takes in an array of numbers and returns a new array with the numbers in reverse order.
+
+  // function reverseOrder(array) {
+  //   var index = array.length-1; 
+  //   var reverse_array = [];
+
+
+  //   while (array.length > reverse_array.length) {
+  //     reverse_array.push(array[index]); 
+  //     index--; 
+  //   }
+  //   return reverse_array; 
+  // }
+
+  // console.log(reverseOrder([1, 2, 3, 4, 5])); 
+
+
+  // 4. Write a function that takes in an array of words and returns the number of words that begin with the letter “a”.
+
+  // function startsWithA(array) {
+  //   var index = 0; 
+  //   var a_array = [];
+
+  //   while (index < array.length) {
+  //     if (array[index][0] === "a") {
+  //       a_array.push(array[index]);
+  //     }
+  //     index ++;
+  //   }
+  //   return a_array.length; 
+  // }
+
+  // console.log(startsWithA(["apple", "bananna", "ape", "melon"]));
+
+  // 5. Write a function that takes in an array of strings and joins them together to make a single string separated by commas.
+
+    function separatedByCommas(array) {
+      var index = 0; 
+      var singleString = [];
+
+      while (index < array.length) {
+        singleString.push(array[index]); 
+        index ++; 
+      }  
+      return singleString.join(","); 
+    }
+
+    console.log(separatedByCommas(["Hello", "Goodbye", "Hi"])); 
 
 
 
@@ -162,69 +248,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- //    function bubbleSort(array) {
- //      var n = array.length; 
-
- //      do {
- //        var swapped = false;
-
- //        for (i = 0, length = n-1, i < length, i = ++ {
-
- //          if (array[index] > array[index+1]) {
- //            array[index], array[index+1] = array[index+1], array[index];
- //            swapped = true; 
- //          }
-
- //        } 
-
- //        if (not swapped){
- //          break; 
- //         }
-
- //      array;
- //    }
-
- // console.log(bubbleSort([100,2,55,76,1,5]));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  // 6. Write a function that takes in an array of numbers and returns the product of all the numbers (each number multiplied by each other).
+  // 7. Write a function that takes in an array of numbers and returns the two smallest numbers.
+  // 8. Write a function that takes in an array of numbers and returns a count of how many zeros are in the array.
+  // 9. Write a function that takes in an array of numbers and returns true if all the numbers are bigger than 10, otherwise returns false.
+  // 10. Write a function that takes in an array of words and returns the number of times the letter “a” appeared in total.
 
   </script>
 </body>
